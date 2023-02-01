@@ -33,6 +33,7 @@ div.inhale-circle {
 }
 
 div.inhale-circle::before {
+	font-size: 1.3rem;
 	content: '';
 	animation: word-change 12s ease-in-out infinite;
 }

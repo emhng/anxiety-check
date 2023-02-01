@@ -1,0 +1,17 @@
+div.question-cont {
+	margin-bottom: 2rem;
+}
+
+div.question-cont h2 {
+	font-weight: 300;
+}
+
+textarea {
+	width: 100%;
+	border-radius: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.08);
+	padding: 1rem;
+	resize: vertical;
+	min-height: 20vh;
+}

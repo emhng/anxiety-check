@@ -93,3 +93,9 @@ div.copy p {
 	font-weight: 300;
 	font-size: 2rem;
 }
+
+small {
+	color: var(--dark);
+	margin-top: 2rem;
+	opacity: 0.6;
+}

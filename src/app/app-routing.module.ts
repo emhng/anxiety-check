@@ -13,6 +13,11 @@ const routes: Routes = [
 			import('./pages/breathe/breathe.module').then(
 				module => module.BreatheModule
 			)
+	},
+	{
+		path: 'rain',
+		loadChildren: () =>
+			import('./pages/rain/rain.module').then(module => module.RainModule)
 	}
 ];
 
