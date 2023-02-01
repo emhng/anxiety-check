@@ -7,5 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class ExpandableComponent {
 	@Input() summary: string = '';
-	@Input() details: string = '';
+	@Input() details: string[] = [];
+	@Input() citation?: string = '';
+	@Input() question?: string = '';
+	@Input() placeholder?: string = '';
 }

@@ -2,5 +2,11 @@
 	<summary>
 		<h2>{{ summary }}</h2>
 	</summary>
-	<p>{{ details }}</p>
+	<p *ngFor="let detail of details">{{ detail }}</p>
+	<app-question-answer
+		*ngIf="question"
+		question="{{ question }}"
+		placeholder="{{ placeholder }}"
+	></app-question-answer>
+	<small *ngIf="citation">{{ citation }}</small>
 </details>

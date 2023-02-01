@@ -1,21 +1,16 @@
 <main>
 	<div class="copy">
-		<h1>Feeling anxious? That's okay!</h1>
+		<h1>Feeling anxious or down? That's okay!</h1>
 		<p>Would you be open to trying some of the activities below?</p>
 	</div>
 	<section>
 		<app-expandable
-			summary="Meditation"
-			details="Using calm app"
-		></app-expandable>
-		<app-expandable summary="Journal" details="Using calm app"></app-expandable>
-		<app-expandable
-			summary="Focus on new self"
-			details="Using calm app"
-		></app-expandable>
-		<app-expandable
-			summary="Talk to support group"
-			details="Using calm app"
+			*ngFor="let activity of activities"
+			summary="{{ activity.summary }}"
+			[details]="activity.details"
+			[citation]="activity.citation"
+			[question]="activity.question"
+			[placeholder]="activity.placeholder"
 		></app-expandable>
 	</section>
 	<div class="links-cont">

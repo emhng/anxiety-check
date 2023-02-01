@@ -1,6 +1,6 @@
 summary {
 	width: 100%;
-	padding: 1rem;
+	background-color: white;
 }
 
 details {
@@ -10,9 +10,9 @@ details {
 	margin-bottom: 1rem;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
 	cursor: pointer;
+	padding: 2rem;
 }
 
 details p {
-	padding: 1rem;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
