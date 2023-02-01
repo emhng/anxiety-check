@@ -1,0 +1,18 @@
+button {
+	padding: 0.5rem 1rem;
+	border-radius: 100rem;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	width: 10ch;
+	font-weight: 700;
+	font-size: 1.1rem;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+button.primary {
+	background-color: var(--primary);
+}
+
+button.secondary {
+	background-color: var(--light);
+	border: 1px solid var(--primary);
+}

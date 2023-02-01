@@ -1,0 +1,12 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	color: var(--medium);
+	opacity: 0.8;
+	text-transform: lowercase;
+}
+
+nav h1,
+nav h2 {
+	font-weight: 300;
+}

@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+/* manrope-regular - latin */
+:root {
+	--light: #f0fdfa;
+	--primary: #14b8a6;
+	--medium: #0d9488;
+	--dark: #134e4a;
+}
+
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/manrope-v13-latin-regular.woff2') format('woff2'),
+		/* Chrome 36+, Opera 23+, Firefox 39+ */
+			url('./assets/fonts/manrope-v13-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-700 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./assets/fonts/manrope-v13-latin-700.woff2') format('woff2'),
+		/* Chrome 36+, Opera 23+, Firefox 39+ */
+			url('./assets/fonts/manrope-v13-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+input,
+button,
+textarea {
+	margin: 0;
+}
+
+input,
+button,
+textarea,
+body {
+	font-family: 'Manrope', Arial, Helvetica, sans-serif;
+	color: var(--dark);
+}
+
+body {
+	background-color: var(--light);
+}
+
+div.page-cont {
+	padding: 1.5rem 2rem;
+	margin: 0 auto;
+}
+
+main {
+	width: 80ch;
+	margin: 0 auto;
+	min-height: 85vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin-bottom: 0.5em;
+}

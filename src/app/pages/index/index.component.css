@@ -1,0 +1,15 @@
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.copy {
+	margin-bottom: 2rem;
+}
+
+div.copy h1,
+div.copy p {
+	font-weight: 300;
+	font-size: 2rem;
+}
