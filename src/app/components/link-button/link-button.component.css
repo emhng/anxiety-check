@@ -21,3 +21,7 @@ a.secondary {
 	background-color: var(--light);
 	border: 1px solid var(--primary);
 }
+
+a.secondary:hover {
+	background-color: var(--primary);
+}
