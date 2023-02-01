@@ -43,11 +43,6 @@ div.inhale-circle {
 	animation-direction: alternate-reverse;
 }
 
-div.links-cont {
-	display: flex;
-	justify-content: space-between;
-}
-
 @keyframes exhale {
 	from {
 	}

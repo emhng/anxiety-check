@@ -18,6 +18,13 @@ const routes: Routes = [
 		path: 'rain',
 		loadChildren: () =>
 			import('./pages/rain/rain.module').then(module => module.RainModule)
+	},
+	{
+		path: 'activity-list',
+		loadChildren: () =>
+			import('./pages/activity-list/activity-list.module').then(
+				module => module.ActivityListModule
+			)
 	}
 ];
 
