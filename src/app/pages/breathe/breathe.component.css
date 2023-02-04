@@ -40,7 +40,7 @@ div.inhale-circle::before {
 
 div.inhale-circle {
 	animation: exhale 6s ease-in-out infinite;
-	animation-direction: alternate-reverse;
+	animation-direction: alternate;
 }
 
 @keyframes exhale {
@@ -53,9 +53,9 @@ div.inhale-circle {
 
 @keyframes word-change {
 	from {
-		content: 'Inhale';
+		content: 'Exhale';
 	}
 	to {
-		content: 'Exhale';
+		content: 'Inhale';
 	}
 }
