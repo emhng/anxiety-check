@@ -14,5 +14,5 @@ details {
 }
 
 details p {
-	font-size: 1.5rem;
+	font-size: clamp(1.25rem, 1.1667rem + 0.3704vw, 1.5rem);
 }

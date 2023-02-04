@@ -1,6 +1,7 @@
 nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 	color: var(--medium);
 	opacity: 0.8;
 	text-transform: lowercase;

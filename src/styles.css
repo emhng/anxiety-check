@@ -68,7 +68,7 @@ div.page-cont {
 }
 
 main {
-	width: 80ch;
+	max-width: 80ch;
 	margin: 0 auto;
 	min-height: 85vh;
 	display: flex;
@@ -85,13 +85,17 @@ p {
 }
 
 div.copy {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 div.copy h1,
 div.copy p {
 	font-weight: 300;
-	font-size: 2rem;
+	font-size: clamp(1.25rem, 1rem + 1.1111vw, 2rem);
+}
+
+h2 {
+	font-size: clamp(1.25rem, 1.1667rem + 0.3704vw, 1.5rem);
 }
 
 small {
@@ -102,5 +106,7 @@ small {
 
 div.links-cont {
 	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
 	justify-content: space-between;
 }
