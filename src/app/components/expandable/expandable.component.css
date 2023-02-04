@@ -2,6 +2,13 @@ summary {
 	width: 100%;
 	background-color: white;
 }
+summary::marker {
+	font-size: clamp(1.25rem, 1rem + 1.1111vw, 2rem);
+}
+
+summary h2 {
+	display: inline-block;
+}
 
 details {
 	width: 100%;
