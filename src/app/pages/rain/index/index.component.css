@@ -2,3 +2,7 @@ div.links-cont {
 	flex-direction: column;
 	gap: 1rem;
 }
+
+small {
+	margin-bottom: 2rem;
+}
