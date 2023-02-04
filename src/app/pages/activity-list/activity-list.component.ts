@@ -46,7 +46,14 @@ export class ActivityListComponent {
 			citation:
 				'Sources for the studies can be found at https://positivepsychology.com/benefits-of-gratitude/'
 		},
-		{ summary: 'Journal to process and release your feelings', details: [``] },
+		{
+			summary: 'Journal to process and release your feelings',
+			details: [
+				`There are many different ways to journal. You can do stream of consciousness or targeted journaling regarding something on your mind.`,
+				`Journaling gives you a safe space and time to process the situation and the emotions associated with it.`,
+				`Sometimes just writing down what you feel is enough to relieve the internal pressure and let the emotions pass through you.`
+			]
+		},
 		{
 			summary: 'Be patient and gentle with yourself and the situation',
 			details: [
