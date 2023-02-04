@@ -53,6 +53,11 @@ textarea {
 }
 
 input,
+textarea {
+	font-size: 1rem;
+}
+
+input,
 button,
 textarea,
 body {
