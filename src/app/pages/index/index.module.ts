@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IndexComponent } from './index.component';
 import { RouterModule, Routes } from '@angular/router';
 import { LinkButtonModule } from 'src/app/components/link-button/link-button.module';
+import { DisclaimerModule } from 'src/app/components/disclaimer/disclaimer.module';
 
 export const routes: Routes = [
 	{
@@ -13,7 +14,12 @@ export const routes: Routes = [
 
 @NgModule({
 	declarations: [IndexComponent],
-	imports: [CommonModule, RouterModule.forChild(routes), LinkButtonModule],
+	imports: [
+		CommonModule,
+		RouterModule.forChild(routes),
+		LinkButtonModule,
+		DisclaimerModule
+	],
 	exports: [RouterModule, IndexComponent]
 })
 export class IndexModule {}

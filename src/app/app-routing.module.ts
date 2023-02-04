@@ -25,6 +25,18 @@ const routes: Routes = [
 			import('./pages/activity-list/activity-list.module').then(
 				module => module.ActivityListModule
 			)
+	},
+	{
+		path: 'better',
+		loadChildren: () =>
+			import('./pages/better/better.module').then(module => module.BetterModule)
+	},
+	{
+		path: 'support',
+		loadChildren: () =>
+			import('./pages/support/support.module').then(
+				module => module.SupportModule
+			)
 	}
 ];
 

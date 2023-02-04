@@ -10,3 +10,8 @@ nav h1,
 nav h2 {
 	font-weight: 300;
 }
+
+a {
+	color: var(--medium);
+	text-decoration: none;
+}

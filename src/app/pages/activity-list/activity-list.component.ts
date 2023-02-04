@@ -46,7 +46,7 @@ export class ActivityListComponent {
 			citation:
 				'Sources for the studies can be found at https://positivepsychology.com/benefits-of-gratitude/'
 		},
-		{ summary: 'Journal to process and release your feelings', details: [] },
+		{ summary: 'Journal to process and release your feelings', details: [``] },
 		{
 			summary: 'Be patient and gentle with yourself and the situation',
 			details: [
